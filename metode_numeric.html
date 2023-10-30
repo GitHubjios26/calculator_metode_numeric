@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Metode Numerik</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Metode Numerik</h1>
+    </header>
+    <div class="calculator">
+        <div class="input-section">
+            <label for="equation">Input Persamaan:</label>
+            <input type="text" id="equation" placeholder="Contoh: x^2 - 4 = 0">
+        </div>
+        <div class="input-section">
+            <label for="method">Metode Numerik:</label>
+            <select id="method">
+                <option value="integrasi">Integrasi Numerik</option>
+                <option value="diferensiasi">Diferensiasi Numerik</option>
+                <!-- Tambahkan metode numerik lainnya jika diperlukan -->
+            </select>
+        </div>
+        <button id="calculate">Hitung</button>
+        <div class="result">
+            <h2>Hasil Penghitungan:</h2>
+            <p id="result-value"></p>
+        </div>
+    </div>
+</body>
+</html>
