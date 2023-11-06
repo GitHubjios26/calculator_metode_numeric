@@ -14,14 +14,12 @@
             color: Orange;
             font-size: 15px;
         }
-/* Gaya untuk menu panel */
 .menu-panel {
     background-color: red;
     padding: 10px;
     text-align: center;
 }
 
-/* Gaya untuk menu bar */
 .menu-bar {
     display: flex;
     justify-content: center;
@@ -53,7 +51,7 @@
             color: white; /* Warna teks untuk baris pertama */
         }
         a {
-            color: grey; /* Atur warna tautan menjadi biru */
+            color: grey;
         }
         .submenu-td {
             position: relative;
@@ -99,6 +97,15 @@
         .form-container {
             text-align: center;
             padding: 20px;
+        }
+        
+        .form-container2 {
+            display: flex;
+            align-items: center;
+        }
+
+        .form-container2 label, .form-container2 input {
+            margin-right: 10px;
         }
 
         .form-container form {

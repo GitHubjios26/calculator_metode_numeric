@@ -1,6 +1,6 @@
 </html>
 <?php
-include('header.php'); // Sisipkan header
+include('header.php'); 
 ?>
 <main>
 <h4><a href="mencari_akar.php">Mencari Akar</a> -> <a href="direct.php">Metode Direct</a> -> <a href="hitung_direct.php">Hitung Direct</a></h4>
@@ -81,5 +81,5 @@ include('header.php'); // Sisipkan header
         </div>
     </main>
 <?php
-include('footer.php'); // Sisipkan footer
+include('footer.php'); 
 ?>

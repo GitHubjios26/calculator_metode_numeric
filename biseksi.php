@@ -1,6 +1,6 @@
 </html>
 <?php
-include('header.php'); // Sisipkan header
+include('header.php'); 
 ?>
 <main>
 <h4><a href="mencari_akar.php">Mencari Akar</a> -> <a href="biseksi.php">Metode Biseksi</a></h4>
@@ -28,5 +28,5 @@ include('header.php'); // Sisipkan header
     <?php include('conection_bisec.php'); ?>
 </main>
 <?php
-include('footer.php'); // Sisipkan footer
+include('footer.php');
 ?>

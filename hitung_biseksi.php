@@ -1,6 +1,6 @@
 </html>
 <?php
-include('header.php'); // Sisipkan header
+include('header.php'); 
 ?>
 <main>
 <h4><a href="mencari_akar.php">Mencari Akar</a> -> <a href="biseksi.php">Metode Biseksi</a> -> <a href="hitung_biseksi.php">Hitung Biseksi</a></h4>
@@ -25,8 +25,6 @@ include('header.php'); // Sisipkan header
                 {
                     return pow($x, 2) - $akar;
                 }
-
-                // Check if there's a root in the given interval
                 if (f($X1, $akar) * f($X2, $akar) > 0) {
                     echo "Akar tidak ada...";
                 } else {
@@ -70,7 +68,6 @@ include('header.php'); // Sisipkan header
 
                     
 
-                    // Menampilkan data dari database
                     // while ($d = mysqli_fetch_object($data)) {
                     //     echo "<tr>";
                     //     echo "<td>" . $d->no . "</td>";
@@ -97,5 +94,5 @@ include('header.php'); // Sisipkan header
         </div>
     </main>
 <?php
-include('footer.php'); // Sisipkan footer
+include('footer.php');
 ?>

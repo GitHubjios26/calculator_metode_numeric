@@ -1,6 +1,6 @@
 </html>
 <?php
-include('header.php'); // Sisipkan header
+include('header.php'); 
 ?>
 <main>
 <h4><a href="mencari_akar.php">Mencari Akar</a> -> <a href="newton.php">Metode Newton</a> -> <a href="hitung_newton.php">Hitung Newton</a></h4>
@@ -89,5 +89,5 @@ include('header.php'); // Sisipkan header
         </div>
     </main>
 <?php
-include('footer.php'); // Sisipkan footer
+include('footer.php');
 ?>

@@ -5,9 +5,8 @@ mysqli_query($koneksi, $query_delete);
 
 if ($query_delete) {
     header("Location: newton.php");
-    exit; // Pastikan untuk keluar dari skrip setelah pengalihan
+    exit; 
 } else {
-    // Jika terjadi kesalahan dalam penghapusan, Anda dapat menangani error sesuai kebutuhan
     echo "Terjadi kesalahan saat menghapus data.";
 }
 ?>

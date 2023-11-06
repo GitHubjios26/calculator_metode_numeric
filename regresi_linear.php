@@ -11,14 +11,15 @@
     <main>
         <h4><a href="regresi.php">Regresi</a> -> <a href="regresi_linear.php">Metode Regresi Linear</a></h4>
         <div class="form-container">
-            <form method="POST" action="generate_table.php">
+            <form method="POST" action="generate_tabel.php">
                 <label for="data">Masukkan Banyaknya Data:</label>
-                <input type="number" name="data" id="data">
-                <input type="submit" value="Hitung">
+                <input type="text" name="data" id="data">
+                <input type="submit" value="Generate">
             </form>
         </div>
         
-        <h4>Riwayat || <a href="hapus_regulafalsi.php"> hapus riwayat</a></h4>
+        <h4>Riwayat || <a href="hapus_regresi_linear.php"> hapus riwayat</a></h4>
+        <?php include ('conection_regresi_linear.php'); ?>
     </main>
 
     <?php

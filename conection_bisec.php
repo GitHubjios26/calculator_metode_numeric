@@ -7,12 +7,11 @@ if (!$koneksi) {
 $query_check_table = "SHOW TABLES LIKE 'biseksi'";
 $result_check_table = mysqli_query($koneksi, $query_check_table);
 if (mysqli_num_rows($result_check_table) > 0) {
-    // Tabel "biseksi" ada dalam database
     $query = "SELECT * FROM biseksi";
     $result = mysqli_query($koneksi, $query);
     echo "<table>";
     echo "<tr><th>No</th><th>X1</th><th>X2</th><th>X</th><th>f(X)</th><th>f(X1)</th><th>Keterangan</th></tr>";
-    // Tampilkan data sesuai kebutuhan
+    
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>";
         echo "<td>" . $row['no'] . "</td>";

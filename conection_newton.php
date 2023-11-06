@@ -10,7 +10,7 @@ if (mysqli_num_rows($result_check_table) > 0) {
     $query = "SELECT * FROM newton";
     $result = mysqli_query($koneksi, $query);
     echo "<table>";
-    echo "<tr><th>No</th><th>X1</th><th>X2</th><th>X</th><th>f(X)</th><th>f(X1)</th><th>Keterangan</th></tr>";
+    echo "<tr><th>No</th><th>X1</th><th>X2</th><th>f(X1)</th><th>f(X2)</th></tr>";
     
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>";
